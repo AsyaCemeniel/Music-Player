@@ -5,10 +5,20 @@
 }
 
 h1,
-h2,
-h3 {
+h2 {
   color: rgb(54, 54, 54);
+}
+
+h3,
+h4 {
+  font-weight: 400;
+  color: rgb(100, 100, 100);
+}
+
+body {
+  font-family: "Exo 2", sans-serif;
 }
 
 @import "./song";
 @import "./player";
+@import "./library";
